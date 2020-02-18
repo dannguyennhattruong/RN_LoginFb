@@ -53,7 +53,7 @@ export default class FBLoginButton extends Component {
               });
             }
           }}
-          onLogoutFinished={() =>  this.props.callback({})}
+          onLogoutFinished={() => this.props.callback({})}
         />
       </View>
     );
